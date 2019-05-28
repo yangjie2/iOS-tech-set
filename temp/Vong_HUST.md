@@ -1,25 +1,27 @@
-CoreData 检索遇到的坑及其解决方式
+少见但实用的 NSPointerFunctions
 --------
 **作者**: [Vong_HUST](https://weibo.com/VongLo)
 
-项目中有用到 `CoreData` 的同学应该对 [`MagicalRecord`](https://github.com/magicalpanda/MagicalRecord/) 这个库或多或少有一点了解，我们项目中也用到这个库的搜索功能即 `NSManagedObject (MagicalFinders)` 这个分类。
+最近在看 IGListKit 的相关源码，IGListKit 某些场景下，容器类并没有使用普通的 NSArray、NSSet 或者 NSDictionary，而是使用了 NSMapTable 或者 NSHashTable。而这两个类有两种指定构造器方法：一种是使用 Options 的方式，另一种是使用 PointerFunctions 的方式，如图1、2。
 
-最近遇到一个问题就是两个 `CoreData` 的 `Model`，`Father` 和 `Son`，`Son` 继承自 `Father`。在 `Father` 执行 `MR_findxxx` 等一系列方法时，会把 `Son` 的实例也找出来。一番搜索下来发现有人在 [`MagicalRecord`](https://github.com/magicalpanda/MagicalRecord/) 提了个类似的 [issue](http://t.cn/RmQD2Rj)。然后发现 `NSFetchRequest` 有一个 `includesSubentities` 属性，直接将其设置成 `NO`，即可。代码如下
+![](https://github.com/awesome-tips/iOS-Tips/blob/master/images/2019/03/2-1.jpg)
 
-```objc
-+ (NSArray *)findAllOrderBy:(NSString *)orderItem ascending:(BOOL)ascending inContext:(NSManagedObjectContext *)context {
-    NSFetchRequest *request = [self requestAllInContext:context];
-    [request setIncludesSubentities:NO];
-    [request setFetchBatchSize:[self defaultBatchSize]];
-    NSSortDescriptor *sortBy = [[NSSortDescriptor alloc] initWithKey:orderItem ascending:ascending];
-    [request setSortDescriptors:[NSArray arrayWithObject:sortBy]];
-    
-    return [self executeFetchRequest:request inContext:context];
-}
-```
+![](https://github.com/awesome-tips/iOS-Tips/blob/master/images/2019/03/2-2.jpg)
 
-参考链接：
+一般情况下，我们会选择使用 Options 的方式，来实现一些简单的功能，比如弱引用容器中的对象可以传入 NSPointerFunctionsWeakMemory。这里的枚举其实是 NS_OPTIONS 的，他有两种类型，第一种内存管理方式，第二种是唯一性判定方式。
 
-[mr_fetchAllSorted fetches not only the parent entity but also the child entity](http://t.cn/RmQD2Rj)
+一般情况下，唯一性判定类型默认为 NSPointerFunctionsObjectPersonality，即利用存储对象本身的 hash 和 isEqual 方法来做唯一性判定（去重逻辑），当然系统也提供了一些其它枚举来实现不同的需求。但是这些枚举都无法满足需求时，可以使用 NSPointerFunctions 自定义唯一性判定方式，它提供了两个用来做 hash 计算和 isEqual 判断的函数指针。
 
-[NSPredicate that filters out subclass results](http://t.cn/RmQDqYa)
+IGListAdapterUpdater 也正是利用了这一点，来实现 NSMapTable 中 key 的自定义唯一性判定（去重）方式，如图3所示。
+
+![](https://github.com/awesome-tips/iOS-Tips/blob/master/images/2019/03/2-3.jpg)
+
+PS：我猜使用 options 的方式内部应该也是根据 options 生成对应的 PointerFunctions，然后再调用 initWithPointerFunctions:，但是如果这样的话，这种方式应该就不是指定构造器了，所以这一点有点好奇。
+
+关于其它更多关于 NSPointerFunctions/NSMapTable 等相关介绍和使用方式可以参考 @saitjr 大佬的[博客](http://www.saitjr.com/ios/nspointerarray-nsmaptable-nshashtable.html)
+
+
+
+
+
+

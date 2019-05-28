@@ -27,6 +27,8 @@
 <a href="https://weibo.com/VongLo"><img style="border-radius: 30px" src="https://tvax3.sinaimg.cn/crop.0.0.667.667.180/ba81ca29ly8fhu4meonedj20ij0ijgmh.jpg" title="Vong_HUST" width="60"/></a> | [Vong_HUST](https://weibo.com/VongLo) | <a href="https://weibo.com/soapyigu"><img style="border-radius: 30px" src="https://tva4.sinaimg.cn/crop.14.0.721.721.180/6cf34ee4jw8f8rdmtzzgmj20ku0k10t5.jpg" title="故胤道长" width="60"/></a> | [故胤道长](https://weibo.com/soapyigu)
 <a href="https://weibo.com/517082456"><img style="border-radius: 30px" src="https://tva4.sinaimg.cn/crop.0.0.1242.1242.180/5fe18d75jw8evft9qcjh5j20yi0yigo5.jpg" title="高老师很忙" width="60"/></a> | [高老师很忙](https://weibo.com/517082456) | <a href="https://weibo.com/u/2293476232"><img style="border-radius: 30px" src="https://tvax1.sinaimg.cn/crop.6.0.737.737.180/88b3ab88ly8fnassmyvedj20ku0khgma.jpg" title="_拿破仑的_风火轮_" width="60"/></a> | [_拿破仑的_风火轮_](https://weibo.com/u/2293476232) 
 <a href="http://weibo.com/halohily"><img style="border-radius: 30px" src="http://ww4.sinaimg.cn/mw690/d9ec7ffcjw8f8a753z961j20e80dp0t3.jpg" title="halohily" width="60"/></a> | [halohily](http://weibo.com/halohily) | <a href="https://weibo.com/kangzubin"><img style="border-radius: 30px" src="https://tva3.sinaimg.cn/crop.0.0.440.440.180/621b53aejw8ekybg28hxzj20c80c83z0.jpg" title="KANGZUBIN" width="60"/></a> | [KANGZUBIN](https://weibo.com/kangzubin) 
+<a href="https://weibo.com/cimer"><img style="border-radius: 30px" src="https://tvax3.sinaimg.cn/crop.0.0.240.240.180/63fbed7aly8fgwp4qd9e4j206o06omx4.jpg" title="陈满iOS" width="60"/></a> | [陈满iOS](https://weibo.com/cimer)  | <a href="https://weibo.com/u/6603469503"><img style="border-radius: 30px" src="http://wx1.sinaimg.cn/mw690/007cTu4Dly8ftcswhzxpsj303o03oglg.jpg" title="这个汤圆没有馅" width="60"/></a> | [这个汤圆没有馅](https://weibo.com/u/6603469503) 
+<a href="https://weibo.com/u/3951595216"><img style="border-radius: 30px" src="https://tvax3.sinaimg.cn/crop.0.0.750.750.180/eb888ed0ly8fzix3b96z7j20ku0kutad.jpg" title="NotFound--" width="60"/></a> | [NotFound--](https://weibo.com/u/3951595216)  
 
 ## 公众号与Medium
 
@@ -39,33 +41,27 @@
 ## 最新内容
 我们会定期整理微博上分享的内容，然后将最新的内容标题放在这里。更多内容可以查看每月的具体内容。
 
-[2018 年 04 月](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md)
+[2019 年 01 月](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md)
 
-* [1. 让失去焦点的 UIWebView 弹出键盘的方法【折腾范儿_味精】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md)
-* [2. 使用 Toolchains 在 Xcode 中切换 Swift 版本【南峰子】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md)
-* [3. iOS 11 后还使用旧方法获取设备剩余空间？【Lefe_x】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md)
+* [1. Debug Memory Graph检查内存泄漏 【这个汤圆没有馅】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#debug-memory-graph%E6%A3%80%E6%9F%A5%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F)
+* [2. 在 UILabel 中渲染 HTML 【南峰子】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#%E5%9C%A8-uilabel-%E4%B8%AD%E6%B8%B2%E6%9F%93-html)
+* [3. iOS App 异常捕获相互覆盖问题 【KANGZUBIN】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#ios-app-%E5%BC%82%E5%B8%B8%E6%8D%95%E8%8E%B7%E7%9B%B8%E4%BA%92%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98)
+* [4. Aspects hook 类方法的正确姿势  【Vong】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#aspects-hook-%E7%B1%BB%E6%96%B9%E6%B3%95%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF-)
+* [5. This block declaration is not a prototype 编译警告处理 【南峰子】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#this-block-declaration-is-not-a-prototype-%E7%BC%96%E8%AF%91%E8%AD%A6%E5%91%8A%E5%A4%84%E7%90%86)
+* [6. Framework 中混合编程时 umbrella header 设置注意事项 【南峰子】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#framework-%E4%B8%AD%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B%E6%97%B6-umbrella-header-%E8%AE%BE%E7%BD%AE%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
+* [7. 关于UIStackView的一个小知识点 【高老师很忙】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#%E5%85%B3%E4%BA%8Euistackview%E7%9A%84%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%9F%A5%E8%AF%86%E7%82%B9)
+* [8. Xcode更新输入账号密码，账号却不是自己的 【Lefe】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#xcode%E6%9B%B4%E6%96%B0%E8%BE%93%E5%85%A5%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81%EF%BC%8C%E8%B4%A6%E5%8F%B7%E5%8D%B4%E4%B8%8D%E6%98%AF%E8%87%AA%E5%B7%B1%E7%9A%84)
+* [9. Swift 中实现 synchronized 【南峰子】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#swift-%E4%B8%AD%E5%AE%9E%E7%8E%B0-synchronized)
+* [10. 点击cell不执行-[UITableView didSelectRowAtIndexPath:]方法的几种方式 【高老师很忙】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#%E7%82%B9%E5%87%BBcell%E4%B8%8D%E6%89%A7%E8%A1%8C-%5Buitableview-didselectrowatindexpath%3A%5D%E6%96%B9%E6%B3%95%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E5%BC%8F)
+* [11. Xcode 工程设置构建版本号自动递增 【KANGZUBIN】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#xcode-%E5%B7%A5%E7%A8%8B%E8%AE%BE%E7%BD%AE%E6%9E%84%E5%BB%BA%E7%89%88%E6%9C%AC%E5%8F%B7%E8%87%AA%E5%8A%A8%E9%80%92%E5%A2%9E)
+* [12. Command Not Found 【Lefe】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#command-not-found)
+* [13. NSScanner 过滤字符串 【这个汤圆没有馅】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#nsscanner-%E8%BF%87%E6%BB%A4%E5%AD%97%E7%AC%A6%E4%B8%B2)
+* [14. 针对 objc_exception_throw 的实用调试技巧 【Vong】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#%E9%92%88%E5%AF%B9-objc_exception_throw-%E7%9A%84%E5%AE%9E%E7%94%A8%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7)
+* [15. 聊聊 iPad 适配 【halohily】](https://github.com/southpeak/iOS-tech-set/blob/master/2019/01.md#%E8%81%8A%E8%81%8A-ipad-%E9%80%82%E9%85%8D)
 
-
-* [4. webview关闭时手动停止音频播放 【halohily】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md#webview%E5%85%B3%E9%97%AD%E6%97%B6%E6%89%8B%E5%8A%A8%E5%81%9C%E6%AD%A2%E9%9F%B3%E9%A2%91%E6%92%AD%E6%94%BE)
-* [5. 关于 Xcode console 输出的 UIImage 警告的解决方式 【Vong】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md#%E5%85%B3%E4%BA%8E-xcode-console-%E8%BE%93%E5%87%BA%E7%9A%84-uiimage-%E8%AD%A6%E5%91%8A%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
-* [6. 如何优雅地获取 ScrollView 的滚动方向 【KANGZUBIN】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md#%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E8%8E%B7%E5%8F%96-scrollview-%E7%9A%84%E6%BB%9A%E5%8A%A8%E6%96%B9%E5%90%91)
-* [7. iOS 你的APP中能藏的住秘密吗？ 【Lefe】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md#ios-%E4%BD%A0%E7%9A%84app%E4%B8%AD%E8%83%BD%E8%97%8F%E7%9A%84%E4%BD%8F%E7%A7%98%E5%AF%86%E5%90%97%EF%BC%9F)
-* [8. iOS9之后字符串变换API 【高老师很忙】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md#ios9%E4%B9%8B%E5%90%8E%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8F%98%E6%8D%A2api)
-* [9. 我们可以利用 NSURLProtocol 做什么 【halohily】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md#%E6%88%91%E4%BB%AC%E5%8F%AF%E4%BB%A5%E5%88%A9%E7%94%A8-nsurlprotocol-%E5%81%9A%E4%BB%80%E4%B9%88)
-* [10. CoreData 检索遇到的坑及其解决方式 【Vong】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md#coredata-%E6%A3%80%E7%B4%A2%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91%E5%8F%8A%E5%85%B6%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
-* [11. 使用 LLDB bugreport 命令导出 App 运行崩溃日志 【KANGZUBIN】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md#%E4%BD%BF%E7%94%A8-lldb-bugreport-%E5%91%BD%E4%BB%A4%E5%AF%BC%E5%87%BA-app-%E8%BF%90%E8%A1%8C%E5%B4%A9%E6%BA%83%E6%97%A5%E5%BF%97)
-* [12. 为icon换装 【高老师很忙】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md#%E4%B8%BAicon%E6%8D%A2%E8%A3%85)
-* [13. Xcode 9 中快速定位目标控制器【moon2light】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md)
-* [14. 讨论一个常见的需求实现【Lefe_x】](https://github.com/southpeak/iOS-tech-set/blob/master/2018/04.md)
+[[2019]查看更多 [1] [2] [3] ... ➡️](https://github.com/southpeak/iOS-tech-set/blob/master/2019/目录.md)
 
 [[2018]查看更多 [1] [2] [3] ... ➡️](https://github.com/southpeak/iOS-tech-set/blob/master/2018/目录.md)
 
 [[2017]查看更多 [1] [2] [3] ... ➡️](https://github.com/southpeak/iOS-tech-set/blob/master/2017/目录.md)
-
-## 感谢
-
-在此，感谢以下作者的分享：
-
-[bestswifter](https://weibo.com/bestswifter)
-[iOS_OneByte](https://weibo.com/u/5549095051)
 
